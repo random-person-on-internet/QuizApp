@@ -1,7 +1,7 @@
 import React from 'react';
-import QuizTopic from './TopicCards';
+import TopicCards from "./TopicCards";
 
-function Topics() {
+const Topics = () =>{
   console.log("Topics is rendering");
 
   const quizzes = [
@@ -13,7 +13,7 @@ function Topics() {
 
   return (
     <div className="p-4">
-      <QuizTopic topic="Binomial Theorem" quizzes={quizzes} />
+      <TopicCards topic="Binomial Theorem" quizzes={quizzes} />
     </div>
   );
 }
