@@ -1,6 +1,4 @@
-// import React from 'react';
-// import Sidebar from './Sidebar';
-// import QuizSub from './components/Quiz/CardsSub';
+
 
 // function App() {
 //     const quizzes = [
